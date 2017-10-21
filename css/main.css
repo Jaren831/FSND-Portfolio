@@ -351,26 +351,21 @@ hr {
 }
 
 #main > img {
-    flex: 3 1 60%;
-    max-width: 100%;
+    width: 100%;
     height: 30vh;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
 
 }
 
 p {
     color: #79A;
-    font-size: 2vw;
     padding-left: 10px;
-    max-height: 1vh;
 }
 
 footer {
-    max-height: 250px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
 }
 
 .project-img {
@@ -400,6 +395,7 @@ footer {
 .project-text,
 p {
     font-size: 2vw;
+
 }
 
 /* Too narrow to support three columns */
@@ -422,4 +418,4 @@ p {
         /*max-height: 100px;*/
         /*min-height: 100px;*/
     /*}*/
-}
+
