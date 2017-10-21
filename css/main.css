@@ -319,12 +319,12 @@ hr {
     margin-bottom: 0;
     border: 0;
     height: 5px;
-    background-color: #7d97ad;
+    background-color: #79A;
 }
 
 #header-text {
     padding-right: 25px;
-    color: #2d3c49;
+    color: #333;
     text-align: right;
 }
 
@@ -374,7 +374,7 @@ footer > div > img {
 }
 
 p {
-    color: #7d97ad;
+    color: #79A;
     font-size: larger;
     padding-left: 10px;
     max-height: 100px;
