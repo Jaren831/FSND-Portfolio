@@ -291,23 +291,32 @@ textarea {
 }
 
 body {
-    font: 24px Roboto;
     height: 100%;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 
 header {
     display: flex;
-    min-height: 150px;
+    font-size: 5vw;
+    height: 100%;
+    width: 100%;
     background: white;
     justify-content: space-between;
 }
 
-header img {
-    height: 100px;
+#header-text {
+    text-align: center;
+
+}
+
+#logo {
+    height: 100%;
+    padding: 2%;
+    width: 15%;
     align-self:center;
     padding-left: 20px;
+    object-fit: contain;
 }
 
 header div {
@@ -318,24 +327,24 @@ hr {
     margin-top: 0;
     margin-bottom: 0;
     border: 0;
-    height: 5px;
+    height: 0.5vh;
     background-color: #79A;
 }
 
 #header-text {
     padding-right: 25px;
+    font-size: 4vw;
     color: #333;
     text-align: right;
 }
 
 #span{
     display: block;
-    font-size: large;
+    font-size: 2vw;
     text-align: right;
 }
 
 #main {
-    max-height: 500px;
     margin: 0;
     padding: 0;
     display: flex;
@@ -343,10 +352,18 @@ hr {
 
 #main > img {
     flex: 3 1 60%;
-    max-height: 500px;
+    max-width: 100%;
+    height: 30vh;
     margin-top: 20px;
     margin-bottom: 10px;
 
+}
+
+p {
+    color: #79A;
+    font-size: 2vw;
+    padding-left: 10px;
+    max-height: 1vh;
 }
 
 footer {
@@ -356,7 +373,7 @@ footer {
     margin-bottom: 20px;
 }
 
-footer > div > img {
+.project-img {
     height: 100%;
     width: 100%;
     object-fit: contain;
@@ -373,38 +390,36 @@ footer > div > img {
     font-size: large;
 }
 
-p {
-    color: #79A;
-    font-size: larger;
-    padding-left: 10px;
-    max-height: 100px;
-}
-
 .project-box {
     display: inline-flex;
     width: 30%;
-    max-height: 200px;
     flex-direction: column;
 }
 
+.project-title,
+.project-text,
+p {
+    font-size: 2vw;
+}
+
 /* Too narrow to support three columns */
-@media all and (max-width: 640px) {
-    #main, #page {
-        flex-direction: column;
-    }
+/*@media all and (max-width: 640px) {*/
+    /*#main, #page {*/
+        /*flex-direction: column;*/
+    /*}*/
 
-    header, footer {
-        min-height: 50px;
-        max-height: 50px;
-    }
+    /*header, footer {*/
+        /*min-height: 50px;*/
+        /*max-height: 50px;*/
+    /*}*/
 
-    header > img {
-        min-height: 40px;
-        max-height: 40px;
-    }
+    /*header > img {*/
+        /*min-height: 40px;*/
+        /*max-height: 40px;*/
+    /*}*/
 
-    main > img {
-        max-height: 100px;
-        min-height: 100px;
-    }
+    /*main > img {*/
+        /*max-height: 100px;*/
+        /*min-height: 100px;*/
+    /*}*/
 }
